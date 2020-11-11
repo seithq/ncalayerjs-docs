@@ -180,29 +180,29 @@ Basic API wrappers around NCALayer API
 | Argument | Type | Description |
 | :--- | :--- | :--- |
 | signature | `string` | Raw signed xml to be validated |
-| callback | [`Callback`](https://github.com/seithq/ncalayerjs#callback) | Callback function to be performed on API response |
+| **callback** | [`Callback`](https://github.com/seithq/ncalayerjs#callback) | Callback function to be performed on API response |
 
 ### signXmlByElementId
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
-| storageName | `string` | Storage name. Available values: `PKCS12`, `AKKaztokenStore`, `AKKZIDCardStore`, `AKEToken72KStore`, `AKJaCartaStore` |
-| storagePath | `string` | Path to key container. Usually result of [`browseKeyStore`](https://github.com/seithq/ncalayerjs#browsekeystore) |
-| keyAlias | `string` | Key alias extracted from key. See helper [`extractKeyAlias`](https://github.com/seithq/ncalayerjs/blob/master/src/helpers.ts) |
-| password | `string` | Key container password |
-| toSign | `string` | Raw xml |
-| elementName | `string` | Element name to be signed |
-| idAttrName | `string` | Element attribute |
-| parentElementName | `string` | Element parent node |
-| callback | [`Callback`](https://github.com/seithq/ncalayerjs#callback) | Callback function to be performed on API response |
+| **storageName** | `string` | Storage name. Available values: `PKCS12`, `AKKaztokenStore`, `AKKZIDCardStore`, `AKEToken72KStore`, `AKJaCartaStore` |
+| **storagePath** | `string` | Path to key container. Usually result of [`browseKeyStore`](https://github.com/seithq/ncalayerjs#browsekeystore) |
+| **keyAlias** | `string` | Key alias extracted from key. See helper [`extractKeyAlias`](https://github.com/seithq/ncalayerjs/blob/master/src/helpers.ts) |
+| **password** | `string` | Key container password |
+| **toSign** | `string` | Raw xml |
+| **elementName** | `string` | Element name to be signed |
+| **idAttrName** | `string` | Element attribute |
+| **parentElementName** | `string` | Element parent node |
+| **callback** | [`Callback`](https://github.com/seithq/ncalayerjs#callback) | Callback function to be performed on API response |
 
 ### verifyXmlByElementId
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
-| signature | `string` | Raw signed xml to be validated |
-| idAttrName | `string` | Element attribute |
-| parentElementName | `string` | Element parent node |
+| **signature** | `string` | Raw signed xml to be validated |
+| **idAttrName** | `string` | Element attribute |
+| **parentElementName** | `string` | Element parent node |
 | **callback** | `Callback` | Callback function to be performed on API response |
 
 ### getHash
