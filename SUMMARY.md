@@ -10,3 +10,17 @@
 * [Callback](reference/callback.md)
 * [Client](reference/client.md)
 
+## Examples
+
+---
+
+* [ReactJS](https://github.com/seithq/ncalayer-react)
+* [StimulusJS](https://github.com/seithq/ncalayer-stimulus)
+
+## Credits
+
+---
+
+* [@seithq](https://github.com/seithq)
+* [@danikarik](https://github.com/danikarik)
+
